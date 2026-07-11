@@ -1,0 +1,13 @@
+
+.product-section {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+.product-section-title {
+  margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+

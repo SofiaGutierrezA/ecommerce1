@@ -1,0 +1,13 @@
+
+.product-image {
+      width: 100%;
+  height: 250px;
+  object-fit: cover;
+
+}
+
+.product-card button {
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
