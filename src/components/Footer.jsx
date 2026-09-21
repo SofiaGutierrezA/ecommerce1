@@ -3,16 +3,12 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <h2>Sport Shop</h2>
-
-      <p>Premium sportswear for every athlete.</p>
+      <h2>Soleva</h2>
 
       <ul className="footer-links">
-        <li>Home</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Shoes</li>
-        <li>Contact</li>
+        <li>Blog</li>
+        <li>FAQs</li>
+        <li>Contact us</li>
       </ul>
 
       <p className="footer-copy">

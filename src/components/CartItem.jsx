@@ -1,5 +1,6 @@
 import "./CartItem.css";
 
+
 function CartItem({ item, removeFromCart, index }) {
     return (
         <li className="cart-item">
@@ -8,6 +9,7 @@ function CartItem({ item, removeFromCart, index }) {
             <span>${item.price.toFixed(2)}</span>
             <button onClick={() => removeFromCart(index)}>Remove</button>
         </li>
+        
     );
 
 }

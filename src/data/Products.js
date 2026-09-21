@@ -1,36 +1,44 @@
-import runningShoes from "../assets/running-shoes.jpg";
-import tops from "../assets/shirt.jpg";
-import bottoms from "../assets/pants.jpg";
-import accessories from "../assets/cap.jpg";
+import runningShoes1 from "../assets/running-shoes.jpg";
+import runningShoes2 from "../assets/pexels-bui-huy-857169-1750045.jpg";
+import denimSneakers from "../assets/pexels-jose-martin-segura-benites-1422456152-27063095.jpg";
+import shinySneakers from "../assets/pexels-jose-martin-segura-benites-1422456152-26954375.jpg";
+import runningShoes3 from "../assets/pexels-wolrider-18202644.jpg";
 
 const products = [
     {
         id: 1,
-        name: "Product 1",
+        name: "Shoes 1",
         price: 49.99,
-        category: "Shoes",
-        image: runningShoes
+        category: "women",
+        image: runningShoes1
     },
     {
         id: 2,
-        name: "Product 2",
-        price: 12.99,
-        category: "Tops",
-        image: tops
+        name: "Running shoes",
+        price: 32.99,
+        category: "women",
+        image: runningShoes2
     },
     {
         id: 3,
-        name: "Product 3",
-        price: 18.99,
-        category: "Bottoms",
-        image: bottoms
+        name: "Denim sneakers",
+        price: 28.99,
+        category: "women",
+        image: denimSneakers
     },
     {
         id: 4,
-        name: "Product 4",
-        price: 13.99,   
-        category: "Accessories",
-        image: accessories
+        name: "Shiny sneakers",
+        price: 23.99,   
+        category: "women",
+        image: shinySneakers
+    },
+    {
+        id: 5,
+        name: "Running shoes",
+        price: 39.99,
+        category: "men",
+        image: runningShoes3
     }
 ]
 export default products;

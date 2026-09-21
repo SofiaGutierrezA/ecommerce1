@@ -4,8 +4,11 @@ import { Search, ShoppingCart } from "lucide-react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Cart from "./components/Cart";
+import Cart from "./pages/Cart";
 import Home from "./pages/Home";
+import Men from "./pages/Men";
+import Women from "./pages/Women";
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -34,6 +37,14 @@ function App() {
           <Cart 
             cart={cart} 
             removeFromCart={removeFromCart} />}
+          />
+          <Route 
+          path="/men"
+          element={<Men addToCart={addToCart} />}
+          />
+          <Route 
+          path="/women"
+          element={<Women addToCart={addToCart} />}
           />
       </Routes>
       </BrowserRouter>
