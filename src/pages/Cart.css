@@ -51,3 +51,8 @@
 .continue-button:hover {
   background-color: rgb(238, 238, 238);
 }
+
+.cart-container p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
