@@ -12,7 +12,6 @@ function Hero() {
           comfort.
         </p>
 
-        <button>Shop Now</button>
       </div>
 
       <div className="hero-image">
